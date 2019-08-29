@@ -2,7 +2,7 @@
 
 namespace SOLID_violation
 {
-    public class CarService
+    public class CarService : IWashing
     {
         public void Wash(Car c) { }
 
