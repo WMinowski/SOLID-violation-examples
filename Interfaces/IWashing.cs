@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace SOLID_violation
 {
-    class Program
+    interface IWashing
     {
-        static void Main(string[] args)
-        {
-
-        }
+        void Wash(Car c);
     }
-
 }
